@@ -1,0 +1,47 @@
+footer {
+  background-color: rgb(105, 7, 7);
+  height: 14em;
+  display: block;
+  padding: 1em 1em 0em;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+footer li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.footermenu {
+  float: left;
+  color: white;
+  padding-top: 2px;
+  margin-left: 4em;
+}
+
+.footermenu h5 {
+  margin-bottom: 20px;
+}
+
+.address {
+  color: white;
+  margin-left: 25%;
+  float: left;
+}
+
+.link {
+  float: left;
+  margin-left: 25%;
+}
+
+.fa {
+  margin-right: 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,48 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/*-------------------------------- nav ---------------------------------------------*/
+
+/*-------------------------------- main ---------------------------------------------*/
+
+     .aboutus{
+        margin: auto;
+        margin-top: 5em;
+        width: 75%;
+      }
+      h3{
+        text-align: center;
+        font-size: 150% ;
+        background-color: rgb(105, 7, 7);
+        color: #ffffff;
+        padding: .5em;
+        margin-top: -1em;
+        margin-bottom: 2em;
+      }
+      .aboutus img{
+        float: left;
+      }
+      span{
+        font-size:25px;
+        color: rgb(255, 160, 160);
+      }
+      .aboutusp{
+        background-color: rgb(107, 26, 26);
+        color:aliceblue;
+        margin-left: 25em;
+        padding: 3em ;
+        font-size:19.5px;
+        margin-top: 8%;
+       
+      }
+
+
+/*-------------------------------- footer ---------------------------------------------*/
+  
+
+
+
+/*-------------------------------- End ---------------------------------------------*/

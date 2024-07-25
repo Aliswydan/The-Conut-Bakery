@@ -1,0 +1,71 @@
+.outer-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+}
+
+.itemForm {
+    width: 350px;
+}
+.itemForm label {
+    display: block;
+    margin-top: 20px;
+}
+
+.itemForm input[type="text"],
+.itemForm textarea,
+.itemForm input[type="number"],
+.itemForm input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.itemForm input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(73, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.itemForm input[type="submit"]:hover {
+    background-color: black;
+}
+
+
+.itemsTable {
+    width: 900px;
+    border-collapse: collapse;
+}
+
+.itemsTable th, .itemsTable td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+    width: 150px;
+    word-wrap: break-word;
+}
+
+.itemsTable th {
+    background-color: black;
+    color: white;
+}
+
+.itemsTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.itemsTable a {
+    text-decoration: none;
+    color: black;
+}
+
+.itemsTable a:hover {
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.order-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-details {
+    margin-bottom: 10px;
+}
+
+.admin-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button.accept {
+    background-color: #4caf50;
+    color: white;
+}
+
+button.reject {
+    background-color: #f44336;
+    color: white;
+}
+
+button.done {
+    background-color: #2196f3;
+    color: white;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}

@@ -1,0 +1,114 @@
+
+nav {
+    width: 100%;
+    height: 70px;
+    border-bottom: 3px solid rgb(105, 7, 7);
+    display: flex;
+    padding-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    background-color: white;
+  }
+nav a{
+  text-decoration: none;
+  color : black;
+}
+.logo-name {
+    width: 30%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2.1em;
+  }
+      
+      
+      
+  #name-logo-bakery {
+      color: rgb(109, 20, 20);
+    }
+      
+      .nav-items {
+          width: 70%;
+          list-style-type: none;
+          display: flex;
+          justify-content: space-around;
+          
+      }
+      
+      .nav-items a {
+          display: inline-block;
+          height: 60px;
+          padding-top: 25px;
+      }
+      
+      .nav-items a, .dropbtn {
+        display: inline-block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+   
+      }
+  .nav-items a:link, .dropdown:link .dropbtn {
+      
+      color: rgb(107, 7, 7);
+      }
+      .nav-items a:hover, .dropdown:hover .dropbtn {
+        border-bottom:6px solid  rgb(107, 26, 26);
+    color: rgb(107, 7, 7);
+      }
+  
+  .nav-items a:visited, .dropdown:visited .dropbtn {
+        border-bottom:6px solid  rgb(107, 26, 26);
+    color: rgb(107, 7, 7);
+      }
+  .nav-items a:active, .dropdown:active .dropbtn {
+        border-bottom:6px solid  rgb(107, 26, 26);
+    color: rgb(107, 7, 7);
+      }
+
+
+      li.dropdown {
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 20px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .btnN {
+            background-color: rgb(107, 7, 7);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 16px;
+            text-align: center;
+            margin: 10px;
+            width: 8% ;
+            
+          
+            
+        }
+
+        .btnN:hover {
+            background-color: rgba(107, 26, 26,0.7);
+        }

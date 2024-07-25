@@ -1,0 +1,29 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/*-------------------------------- nav ---------------------------------------------*/
+
+/*-------------------------------- main ---------------------------------------------*/
+main{
+  height: 2750px;
+}
+main div {
+  width: 75vw;
+  margin-left: 15vw;
+ 
+  
+}
+
+h1{
+  background-color:rgb(112, 8, 8);
+  margin: 0.5em;
+  text-align: center;
+  font-size: 5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+/*-------------------------------- End ---------------------------------------------*/

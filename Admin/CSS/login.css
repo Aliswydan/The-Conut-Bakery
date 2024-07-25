@@ -1,0 +1,64 @@
+* {
+     margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(73,0,0);
+    /*without height attribute setted to 100 of the viewport height the body will wrap the content(div) and just make it
+    centered horizontally not vertically
+    */
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      
+#login{ 
+    width: 300px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #EAEAEA;
+}
+
+
+form h1 {
+    text-align: center;
+    margin-top: 8%;
+    color: black;
+}
+
+label {
+    color: black;
+    margin-top: 10px;
+}
+
+#login .form-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit_button {
+    padding: 10px;
+    background-color: rgb(73,0,0);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    background-color: black; 
+}
+

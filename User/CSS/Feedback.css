@@ -1,0 +1,112 @@
+/* Your existing styles */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+main {
+  margin-top: 0.5em;
+}
+
+main .feedback {
+  background-image: url("../img/feedbackimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+
+.feedback {
+  text-align: center;
+}
+
+.feedback h1 {
+  color: white;
+  font-size: 2.5em;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.feedback form {
+  width: 60%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.feedback form textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+#btnF {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #5f0505;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#btnF:hover {
+  background-color: #880b0b;
+}
+
+.feedback form label {
+  color: #851111;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* New styles for feedback display */
+
+.feedback-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.feedback-card {
+  background-color:rgba(94, 4, 4, 0.9);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  
+}
+
+.feedback-card h6 {
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.feedback-card p {
+  margin: 0;
+  text-align: right ;
+  color: #ffffff;
+  font-size: 0.6em;
+}
+
+.feedback-button {
+
+  float: right;
+  color: #000000;
+  font-size: 0.6em;
+}

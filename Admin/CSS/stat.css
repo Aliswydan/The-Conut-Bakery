@@ -1,0 +1,194 @@
+.container{
+    text-align: center;
+}
+
+
+.container > div{
+     width: 380px;
+      height: 450px; 
+     background-color: brown;
+     margin-bottom: 7em;
+     margin-left: 2em;
+}
+
+.left1 {
+    background-color: #dcdcdc;
+    color: #6d1717;
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.left:hover, .right:hover, .center:hover {
+    transform: scale(1.1);
+}
+
+.center{
+    display: inline-block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+.right{
+float: right;
+transition: transform 0.3s ease-in-out;
+}
+.title{
+background-color: #dcdcdc;
+border: 2px solid;
+color: brown;
+text-align: center;
+margin-bottom: 5em;
+}
+.left1{
+background-color:#dcdcdc ;
+color: #6d1718; 
+font-weight: bold ;
+/* .leftp{
+    height: 600px;
+} */
+
+}
+.header{
+background-color: #dcdcdc; 
+border: 1px solid #6d1717; 
+padding: 20px; 
+margin-top: 1EM; 
+font-family:'Courier New', Courier, monospace ; 
+font-size: 1.5em; 
+ color: #333; 
+ text-align: center; 
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ font-weight: bold;
+}
+h2{
+margin-top: 3em;
+}
+h1{
+border: 1px solid #797575; 
+margin-top: 2em;
+border-width: 20PX;
+color: #6d1717;
+background-color: #dcdcdc; 
+
+}
+button {
+margin-left: 2em;
+font-size: 2em;
+margin-top: 0em;
+font-weight: bold;
+color: #6d1717;
+transition: transform 0.3s ease-in-out;
+
+}
+button:hover {
+transform: scale(1.1); 
+}
+
+.left .Conut {
+        text-align: center;
+        margin-top: 10px;
+        background-color: brown;
+    
+    }
+
+    .left .Conut img {
+        border-radius: 10px;  
+    }
+
+    .left .Conut h2 {
+        font-size: 1.5em;
+        margin-top: 5px;
+        color: azure ;
+    }
+
+    .left .Conut h1 {
+        font-size: 2em;
+        margin-top: 5px;
+        color: #6d1717;
+        /* background-color: #6d1717; */
+    }
+    .Drink {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .Drink img {
+        border-radius: 8px;
+    }
+    
+    .Drink h2 {
+        margin-top: 5px;
+        font-size: 1.5em;
+        color:azure;
+    }
+    
+    .Drink h1 {
+        margin-top: 5px;
+        font-size: 2em;
+        color: #6d1717;
+    }
+
+
+.Chimney {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Chimney img {
+    border-radius: 8px;
+}
+
+.Chimney h2 {
+    margin-top:0px;
+    font-size: 1.5em ;
+    color: azure;
+}
+
+.Chimney h1 {
+    margin-top: 5px;
+    font-size: 2em;
+    color: #6d1717;
+}
+.leftconut{
+        float: left;
+        transition: transform 0.3s ease-in-out;
+        max-height: 1600px;
+        /* max-width: 1200px; */
+    }
+    
+    .leftconut:hover,.centerdrink:hover,.rightchim:hover {
+        transform: scale(1.1);
+    }
+
+.centerdrink{
+    display: inline-block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+    min-height: 80em;
+}
+.rightchim{
+     float: right;
+    transition: transform 0.3s ease-in-out;
+}
+.container1 > div {
+    width: 380px;
+    min-height: 50em; /* Adjust as needed */
+    background-color: brown;
+    margin-bottom: 7em;
+    margin-left: 1.5em;
+}
+
+.centerdrink {
+    min-height: 80em; /* Adjust as needed */
+    display: inline-block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+.container1{
+    text-align: center;
+}
+.container1 h1{
+    text-align: center;}

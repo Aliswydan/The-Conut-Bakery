@@ -1,0 +1,63 @@
+#order-history {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#time-period-dropdown {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.button-details {
+    background-color: #af5b4c;
+    /* Green background color */
+    color: white;
+    /* White text color */
+    padding: 10px 15px;
+    /* Padding for better appearance */
+    border: none;
+    /* Remove the border */
+    border-radius: 5px;
+    /* Rounded corners */
+    text-decoration: none;
+    /* Remove underline */
+    display: inline-block;
+    /* Make it inline-block to fit content */
+    font-size: 14px;
+    /* Font size */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+}
+
+
+/* Hover effect for the button */
+
+.button-details:hover {
+    background-color: #af5b4c;
+    /* Darker green on hover */
+}

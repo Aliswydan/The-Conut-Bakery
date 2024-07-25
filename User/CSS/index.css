@@ -1,0 +1,249 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+/*-------------------------------- header ---------------------------------------------*/
+.rotate {
+  background-image: url("../img/header.jpg");
+  width: 100%;
+  height: 800px;
+  margin-top: 0.1em;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rotated {
+  width: 100%;
+  height: 800px;
+  color: white;
+  padding: 280px 70px;
+}
+.btn {
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 70px 10px ;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+.bt1 {
+  color: white;
+  border: 1px solid gray;
+}
+
+.bt2 {
+  color: black;
+  background-color: rgb(107,7,7);
+  border: 1px solid rgb(107,7,7);
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.scrolltop {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  padding: 10px 15px;
+  background-color: none;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.scrolltop:hover {
+  background-color: black;
+  color: white;
+}
+/*----------------------------------- The welcome -----------------------------------*/
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+
+.welcome-p {
+    font-family: papyrus;
+    font-size: 2em;
+}
+
+/*-------------------------------- conut ---------------------------------------------*/	
+.conut-container {
+    display: flex;
+    background-color: rgb(117, 21, 21);  
+}
+.conut-left {
+    display: flex;
+
+}
+.conut-paragraph h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5em;
+    color: rgb(255, 255, 255);
+    margin-top: 7%;
+
+}
+.conut-paragraph p {
+    font-family: 'Fira Sans Condensed';
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    margin-left: 2em;
+}
+
+/*-------------------------------- chimney ---------------------------------------------*/
+.chimney-container {
+    display: flex;
+    background-color: black;
+}
+
+.chimney-right  {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.chimney-paragraph h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-top: 9%;
+}
+.chimney-paragraph p {
+    font-family: 'Fira Sans Condensed';
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+     text-align: center;
+     margin-left: 40px;
+}
+/*-------------------------------- drink ---------------------------------------------*/
+
+.drink-container {
+    display: flex;
+    background-color: rgb(117, 21, 21); 
+}
+.drink-left {
+    display: flex;
+    justify-content: flex-start;
+}
+.drink-paragraph h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: rgb(255, 255, 255);    text-align: center;
+    margin-top: 7%;
+}
+.drink-paragraph p {
+    font-family: 'Fira Sans Condensed';
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);   
+}
+
+/*-------------------------------- slider ---------------------------------------------*/
+.slid{
+   
+    padding: 5em 0 5em;
+}
+.auto-slider{
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    background: #fff;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+
+}
+#slider { 
+  overflow: hidden; 
+  
+}
+#slider figure img {
+  width: 15%; 
+  float: left; }
+
+#slider figure { 
+  position: relative;
+  width: 222%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s sliding ease infinite; 
+}
+
+@keyframes sliding{
+  0%{left: 0%; }
+  50%{left: -100%;}
+  100%{left: 0%;}
+}        
+
+/*-------------------------------- our items ---------------------------------------------*/
+.imgHome{
+  border-radius: 100%; 
+  margin-top: 32px;
+}
+.card:hover{
+  transform:scale(1.1);
+
+}
+.toto1 {
+  text-decoration: none;
+  color:white;
+
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(105, 7, 7, 0.9);
+    width: 250px;
+    margin:3em 5em;
+    text-align: center;
+    font-family: arial;
+    float:left;
+    height: 350px;
+  }
+
+  .card button {
+    border: none;
+    padding: 12px; 
+    background-color:rgb(105, 7, 7);
+    text-align: center;
+    cursor:pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .toto{
+    text-align:center; 
+    background-color: rgb(105, 7, 7);
+    height: 1.7em;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    padding-top:3px ;
+  }
+
+
+/*-------------------------------- footer ---------------------------------------------*/
+  
+
+
+/*-------------------------------- End ---------------------------------------------*/

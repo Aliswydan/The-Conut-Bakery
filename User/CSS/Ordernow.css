@@ -1,0 +1,222 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/*-------------------------------- nav ---------------------------------------------*/
+ 
+/*-------------------------------- main ---------------------------------------------*/
+
+
+
+main {  
+  font-family: 'Roboto Condensed', sans-serif;   
+  margin-bottom: 10em;
+  height: max-content;
+}  
+
+.container {  
+  width: 85%;
+  padding-right: 15px;  
+  padding-left: 15px;  
+  margin-right: auto;  
+  margin-left: auto;  
+  margin-top: 3em;
+} 
+
+.containerXY {
+  display: flex;
+  flex-wrap: nowrap;  
+  overflow-x: auto; /* Add horizontal scroll if content overflows  */
+  height: 420px;
+
+  
+}
+
+.containerX {
+  flex: 0 0 auto;     
+  margin-right: 10px;  
+  padding: 20px;
+  background-color: rgb(228, 228, 228);
+  border: 2px solid rgb(107, 26, 26);
+  width: 300px;
+  height: 400px;
+  overflow-x: auto; /* Add horizontal scroll if content overflows  */
+
+
+}
+.containerX h4 ,.containerX h3{
+  margin: 10px;
+
+}
+
+.containerY{
+  display: flex;
+  flex-wrap: nowrap; 
+}
+
+.quantity-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;  
+  margin-top: 15px;  
+  margin-bottom: 5px;
+
+}
+
+.quantity-btn {
+  border-radius: 50%;  
+  width: 30px;  
+  height: 30px;  
+  background-color: rgb(105, 7, 7);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;  
+}
+
+ 
+.delete-btn {
+  border-radius: 5px;   
+  width: 100px;  
+  height: 30px;  
+  background-color: rgb(100, 0, 0);   
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(150, 0, 0);   
+  cursor: pointer;
+  font-size: 14px;   
+}
+
+.delete-btn:hover {
+  background-color: rgb(150, 0, 0);  
+}
+
+.quantity-btn:hover {
+  background-color: rgb(150, 0, 0);   
+}
+
+
+  
+.fform{
+  margin: 3em;
+  padding: 25px; 
+  background: #f6f6f6;  
+  border-radius: 0 0 5px 5px; 
+  width: 60%;
+  float: left;
+  display: block;
+  
+}
+.Yorder {  
+  margin: 5em 0;
+  width: 30%;
+  padding: 25px; 
+  border: 1px solid #7f7f7f;
+  background-color: #f1f1f1;  
+  border-radius: 0 0 5px 5px; 
+  float: left;
+ 
+}  
+.title {  
+  background-color: rgb(105, 7, 7);
+  padding: 20px;  
+  color: #ffffff;  
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0 0 10px 10px;
+  text-align: center; 
+}  
+ 
+.required1 {  
+  color: red;  
+} 
+.error{
+  
+  text-align: left;
+  font-style: italic;
+  font-size: .90em;
+  color:red;
+  font-family: arial;
+
+} 
+label {  
+  display: block;  
+  margin: 15px;  
+}  
+
+label>span {  
+  float: left;  
+  width: 30%;  
+  margin-top: 12px;  
+  padding-right: 10px;  
+}  
+
+
+input[type="email"]  
+{  
+  width: 70%;  
+  height: 30px;  
+  padding: 5px 10px;  
+  margin-bottom: 10px;  
+  border: 1px solid #dadada;  
+  color: #888;  
+}  
+
+input[type="text"] {  
+  width: 70%;  
+  height: 30px;  
+  padding: 5px 10px;  
+  margin-bottom: 10px;  
+  border: 1px solid #dadada;  
+  color: #888;  
+}  
+input[type="tel"]   
+{  
+  width: 70%;  
+  height: 30px;  
+  padding: 5px 10px;  
+  margin-bottom: 10px;  
+  border: 1px solid #dadada;  
+  color: #888;  
+}  
+select {  
+  width: 70%;  
+  height: 30px;  
+  padding: 5px 10px;  
+  margin-bottom: 10px;  
+}  
+
+p {  
+  display: block;  
+  color: #888;  
+  margin: 0;  
+  padding-left: 25px;  
+}  
+.Yorder div {  
+  padding: 15px 0;   
+}  
+
+ button {  
+  width: 100%;  
+  margin-top: 2em;  
+  padding: 10px;  
+  border: none;  
+  border-radius: 30px;  
+  background: rgb(105, 7, 7);  
+  color: #fff;  
+  font-size: 15px;  
+  font-weight: bold;  
+}  
+button:hover {  
+  cursor: pointer;  
+  background: rgb(107, 26, 26);  
+}  
+
+
+/*-------------------------------- footer ---------------------------------------------*/
+
+
+
+
+/*-------------------------------- End ---------------------------------------------*/

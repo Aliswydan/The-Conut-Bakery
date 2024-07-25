@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e0e0e0;
+  
+}
+
+
+
+
+#container {
+  background-color: #e0e0e0;
+  padding: 20px;
+
+}
+
+
+
+
+.header {
+  text-align: center;
+  font-size: 150%;
+  background-color: rgb(105, 7, 7);
+  color: #ffffff;
+  height: 2em;
+  padding-top: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.card-div {
+  display: none;
+  background-color: #ffe7e7;
+  padding: 10px;
+  border: 2px solid #333;
+  width: 30%;
+  box-sizing: border-box;
+  position: fixed;
+  right: 0;
+  top: 70px;
+  bottom: 70px;
+  transition: all 0.5s ease 0s;
+  overflow-y: auto;
+}
+
+ 
+.cardbtn{
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.cardbtn button {
+
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(160, 5, 5);
+  border: 2px solid rgb(105, 7, 7);
+  padding: 10px;
+  white-space: nowrap;
+}
+
+
+ 
+.card-div h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ae0000;
+  text-align: center;
+}
+
+.card-div h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #181717;
+
+}
+
+.closebtn {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  padding: 10px;
+  border: none;
+
+  float: left;
+  flex-wrap: wrap;
+  margin: 20px;
+
+}
+
+
+#container.show {
+  width: 70%;
+ 
+
+}
+
+.card-div.show {
+  display: block;
+}
+
+#cardButton{
+  display: block;
+  position: fixed;
+  top: 40%;
+  right: 40px;
+  padding: 20px;
+  color: beige;
+  background-color: rgb(112, 0, 0);
+
+}
+
+
+/*-------------------------------- card ---------------------------------------------*/
+
+
+.cardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 10%;
+
+}
+
+.card {
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  font-family: arial;
+  background-color: rgb(105, 7, 7);
+  color: #ffffff;
+  box-shadow: 0 0 20px 0 rgb(160, 5, 5);
+  transition: 0.4s ease-in-out;
+  margin-bottom: 5em;
+  margin-right: 3em;
+}
+
+.card img {
+  height: 140px;
+}
+
+.card h2 {
+  margin-top: 0.5em;
+  font-size: 15px;
+}
+
+.card p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 25%;
+}
+
+.btnOrder {
+  background-color: #e0e0e0;
+  text-align: center;
+  border: 2px solid rgb(94, 0, 0);
+  border-radius: 7px;
+  width: 100%;
+  margin-top: 20%;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  background-color: rgb(175, 4, 4);
+}
+
+/*-------------------------------- Spread ---------------------------------------------*/
+
+.spreadtable,
+.toppingtable {
+  clear: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5em auto; /* Center both horizontally and vertically */
+}
+
+.spreadtable span,
+.toppingtable span {
+  font-size: 150%;
+}
+
+.spreadtable  table {
+  font-weight: bold;
+  border: 1px solid rgb(105, 7, 7);
+  width: 700px;
+  margin: 0 auto; 
+
+}
+
+.toppingtable  table {
+  font-weight: bold;
+  border: 1px solid rgb(105, 7, 7);
+  width: 800px;
+  margin: 0 auto; 
+  clear: left;
+}
+
+
+caption {
+  background-color: rgb(105, 7, 7);
+  color: #ffffff;
+  margin-bottom: 1em;
+  font-size: 30px;
+}
+
+
+td  {
+  border-right: 1px solid rgb(105, 7, 7);
+  text-align: center;
+  transition: 0.3s ease-in-out;
+  
+}
+
+ .btntd{
+  background: none;
+  border: #ffffff;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center; 
+  width: 100%;
+}
+
+ 
+
+td:hover {
+  transform: scale(1.4);
+  background-color: rgb(105, 7, 7);
+  color: #ffffff;
+
+}
+.btntd:hover{
+  color: #ffffff;
+
+}
+/*-------------------------------- End ---------------------------------------------*/
+.search-bar {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.search-barform {
+  display: inline-block;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #45a049;
+}
+
+
+
+.btntd.searched {
+  background-color: #ffcc00;  
+} 
