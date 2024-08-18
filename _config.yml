@@ -1,5 +1,0 @@
-defaults:
-  - scope:
-      path: "User"
-    values:
-      permalink: /
